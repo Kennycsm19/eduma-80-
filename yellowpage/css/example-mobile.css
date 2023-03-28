@@ -1,0 +1,47 @@
+section#exam-mobile {
+    margin-top: 40px;
+}
+.barra {
+  width: 200px;
+  height: 388px;
+  overflow-x: scroll;
+  margin: 0 auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.barra-box {
+    display: flex;
+    width: fit-content;
+    justify-content: space-around;
+    transition: transform 1s ease;
+}
+.barra-box .divmobile {
+  width: 200px;
+  height: 370px;
+  scroll-snap-align: center;
+}
+.buttmobile {
+    display: flex;
+    justify-content: center;
+}
+
+.buttmobile button {
+    background-color: #cccccc;
+    padding: 5px;
+    border-radius: 50%;
+    border: 0;
+    margin: 20px 2px;
+}
+.buttmobile button.on {
+    background-color: #ffaa00;
+}
+.divmobile a {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/devices/eduma-device-8.png);
+    display: block;
+    filter: drop-shadow(0px 2px 5px #00000049);
+}

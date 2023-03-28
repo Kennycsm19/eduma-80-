@@ -1,0 +1,205 @@
+.jirafa {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.leon {
+  flex: 0 0 85%;
+  height: 300px;
+  scroll-snap-align: center;
+  margin: 0 16px;
+}
+
+.tigre.pescado {
+  background-color: #fca401;
+}
+
+.bluesky {
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/bg/eduma-multiple-bg.png);
+height: 500px;
+width: 100%;
+position: absolute;
+}
+
+.examples-text {
+  z-index: 1;
+  position: relative;
+}
+
+.examples-text strong {
+  text-align: center;
+  display: block;
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding: 47px 0;
+}
+
+.examples-text strong span {text-decoration: underline;}
+
+.example-one {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 25px;
+  width: 304px;
+  margin: 0 auto;
+}
+
+.example-one a {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 290px;
+  display: block;
+  height: 32px;
+}
+
+.example-one a:nth-child(1) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-multiple-1.1.png);
+}
+
+.example-one a:nth-child(2) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-multiple-2.2.png);
+}
+
+.example-one a:nth-child(3) {background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-multiple-3.3.png);}
+
+.example-one a:nth-child(4) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-multiple-4.4.png);
+}
+
+.example-two {width: 100%;height: auto;display: flex;flex-wrap: wrap;align-items: center;justify-content: center;margin-bottom: 45px;gap: 25px 15px;}
+
+.example-two a:nth-child(1) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-course-1.1.png);
+}
+
+.example-two a:nth-child(2) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-course-2.2.png);
+}
+
+.example-two a:nth-child(3) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-course-3.3.png);
+}
+
+.example-two a:nth-child(4) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-course-4.4.png);
+}
+
+.example-two a {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 292px;
+  display: block;
+  height: 188px;
+  box-shadow: 1px 2px 9px -1px #00000054;
+
+
+}
+
+section#examples {
+  position: relative;
+}
+
+.bg.draw {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+}
+.bg.blue {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/bg/eduma-options-bg.png);
+  position: sticky;
+  width: 100%;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+.blua {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    gap: 25px 15px;
+}
+
+.blue a {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 292px;
+  display: block;
+  height: 188px;
+  box-shadow: 1px 2px 9px -1px #00000054;
+}
+
+.blue a:nth-of-type(1) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-options-1.1.png);
+}
+
+.blue a:nth-of-type(2) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-options-1.1.png);
+}
+
+.blue a:nth-of-type(3) {
+  background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-options-3.3.png);
+}
+
+.blue a:nth-of-type(4) {
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/multipleType/eduma-options-4.4.png);
+}
+.example-secondtittle-box p:first-child {
+}
+
+.example-secondtittle-box p:first-child {
+  font-size: 11rem;
+  bottom: 396px;
+}
+
+.example-secontittle {
+  margin: 18px auto;
+}
+
+.example-secondtittle-box strong {
+  padding: 8px 0;
+}
+.jirafa::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.jirafa::-webkit-scrollbar {
+    width: 2px;
+}
+.scrollx::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollx::-webkit-scrollbar-thumb {
+    background-color: #ffaa00;
+}
+button.tigre {
+    padding: 7px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.cebra {
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    margin: 0 auto;
+}

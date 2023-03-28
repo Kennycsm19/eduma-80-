@@ -1,0 +1,90 @@
+.bg.powerful {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/vivid-blurred-colorful-wallpaper-background_58702-4247.jpg?w=900&t=st=1680043278~exp=1680043878~hmac=5e0bead…);
+    width: 100%;
+    height: 100%;
+    filter: opacity(0.6);
+    position: absolute;
+    z-index: 0;
+}
+
+section#powerful {
+  width: 100%;
+  min-width: 320px;
+  height: 609px;
+  position: relative;
+}
+
+
+section#powerful > p {
+    z-index: 4;
+    position: relative;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 14px;
+    font-size: 1.4rem;
+}
+
+section#powerful strong {
+    color: white;
+    padding-top: 20px;
+}
+
+.cicles {
+    z-index: 3;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 25px;
+    max-width: 649px;
+    margin: 32px auto;
+}
+
+.circle-box {
+    width: 82px;
+    height: 82px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle-borde p {
+    text-align: center;
+}
+
+.circle-container p {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 13px 0;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 127px;
+}
+
+.circle-borde {
+    border: 1px dashed;
+    background-color: transparent;
+    padding: 17px;
+    border-radius: 50%;
+}
+section#powerful strong {
+    text-align: center;
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 0 21px;
+    line-height: 32px;
+    margin: 15px 0;
+    z-index: 5;
+    position: relative;
+    padding-top: 20px;
+}

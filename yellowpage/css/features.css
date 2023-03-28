@@ -1,0 +1,82 @@
+.features-box {
+    width: 100%;
+    min-width: 320px;
+}
+
+.features-container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px dashed #dbdbdb;
+    padding: 29px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 37px;
+}
+
+.features-box-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 59px;
+    height: 95px;
+}
+
+.features-box-icon:nth-of-type(1) {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4926/4926585.png);
+}
+
+.features-container:nth-of-type(1) .features-box-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/4926/4926585.png);
+}
+
+.features-container:nth-of-type(2) .features-box-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/2954/2954893.png);
+}
+
+.features-container:nth-of-type(3) .features-box-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/9014/9014358.png);
+}
+
+.features-container:nth-of-type(4) .features-box-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3665/3665927.png);
+}
+
+.features-container:nth-of-type(5) .features-box-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/10003/10003663.png);
+}
+
+.features-container:nth-of-type(6) .features-box-icon {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/10136/10136509.png);
+}
+
+.features-container-box strong {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 11px 0;
+    display: block;
+}
+
+.features-container-box p {
+    font-size: 1.3rem;
+    line-height: 22px;
+    color: #8e99a1;
+}
+
+.pointers {
+    display: inline-block;
+    position: absolute;
+    border: 1px dashed #d1d1d1;
+    padding: 68px 60px;
+    right: 0;
+    border-radius: 50%;
+    top: -53px;
+    right: -45px;
+}
+
+.pointers p {
+  font-size: 5rem;
+  color: #e7e7e7;
+  position: relative;
+  top: 15px;
+  right: 10px;
+}

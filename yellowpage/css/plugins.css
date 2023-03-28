@@ -1,0 +1,58 @@
+.carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.item {
+  flex: 0 0 100%;
+  max-width: 200px;
+  height: 200px;
+  scroll-snap-align: center;
+  margin: 30px 35%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 2px #00000029;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+}
+section#plugins {
+    margin: 45px 0;
+}
+.control {
+  background-color: lightgray;
+  border: 0;
+  padding: 4px 5px;
+  margin: 0 4px;
+  border-radius: 50%;
+}
+.control.active {
+  background-color: #ffa601;
+  border: 1px solid gray;
+}
+@media (min-width:1200px) {
+.carousel{
+overflow-x:hidden;
+
+&::before,
+&::after{
+display:none
+}
+
+.item{
+flex-basis:auto;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+.controls{
+display:flex
+}
+.carousel::-webkit-scrollbar {
+    height: 11px;
+}

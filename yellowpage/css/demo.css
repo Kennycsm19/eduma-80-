@@ -1,0 +1,107 @@
+h2 {
+    text-align: center;
+    font-size: 10rem;
+    background: -webkit-linear-gradient(1deg, #ffc701 40.17%, #fe37c6 57.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 32px;
+}
+.demo-tittle {
+    width: 100%;
+    height: 255px;
+    background-position: center;
+    background-position-y: -13px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://eduma.thimpress.com/wp-content/themes/eduma-landingpage/images/bg/eduma-dotted-line.png);
+}
+.demo-tittle p:nth-child(1), .example-secondtittle-box p:first-child {
+    text-align: center;
+    font-size: 26rem;
+    font-weight: 800;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -274px;
+    background-position-y: 22px;
+    background: linear-gradient(180deg, #cfcfcf -38.08%, rgba(255, 255, 255, 0) 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: -1;
+}
+
+.demo-tittle strong, .example-secondtittle-box p:last-child {
+    text-align: center;
+    display: block;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.demo-tittle p:last-child {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0 8px;
+    font-weight: 500;
+    color: #b3b3b3;
+}
+.buttonactive {
+  position: relative;
+}
+#buttons::-webkit-scrollbar {
+    width: 12px;
+}
+.buttonactive.active::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: -1;
+  background-image: url('https://img.freepik.com/premium-vector/gradient-background_763350-6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.btn-box div {
+  width: 137px;
+  height: 183px;
+  background-color: #639d9d;
+  display: block;
+  margin: 20px 7px;
+  position: relative;
+}
+
+.btn-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 22px;
+}
+#buttons {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+div#buttons button {
+    background-color: #f3f3f3;
+    border: transparent;
+    padding: 10px 30px;
+    margin: 0 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    color: #9a9a9a;
+}
+.btn-box div span {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 188px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}

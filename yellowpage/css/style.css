@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+  font-family: 'Inter', 'sans-serif';
+  width: 100%;
+  min-width: 320px;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+:root {
+  --naranja: #FF4B36;
+  --oscuro: #03051A;
+  --azul: #07104B;
+  --pastel: #9094AF;
+  --gris: #2F2F33;
+  --celeste: #f2f7ff;
+  --plomo: #ececec;
+  --metaldos: #919191;
+  --metal: #484c44;
+  --azultext: #16226f;
+}
